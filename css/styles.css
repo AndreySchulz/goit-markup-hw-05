@@ -294,11 +294,33 @@ header {
 }
 
 .ocupation-box > .item {
+  position: relative;
+  
   margin-right: 30px;
 }
 
 .ocupation-box > .item:last-child {
   margin-right: 0px;
+}
+
+.oucupation-description{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  width: 100%;
+  padding: 27px 0;
+
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--main-haeding-color);
+
+  background-color: rgba(47, 48, 58, 0.8);
+
+  
 }
 
 /* наша команда */
